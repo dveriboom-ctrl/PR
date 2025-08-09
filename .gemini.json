@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "github": {
+    "auto_review": true,
+    "review_on_pr": true,
+    "comment_style": "constructive"
+  },
+  "analysis": {
+    "check_security": true,
+    "check_performance": true,
+    "check_best_practices": true,
+    "languages": [
+      "python",
+      "javascript",
+      "typescript"
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "include_suggestions": true
+  }
+}
